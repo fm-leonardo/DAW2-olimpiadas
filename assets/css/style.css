@@ -1,0 +1,44 @@
+:root {
+    --blue: #1084c7;
+    --black: #000;
+    --white: #fff;
+}
+
+
+
+body {
+    /* background: url(/assets/images/toquio-2020-musicas-videogames-cerimonia-abertura.jpg); */
+    background-color: var(--black);
+    background-size: cover;
+
+    font-family: 'Lato', sans-serif !important;
+}
+
+.text-title {
+    font-family: 'Lato';
+    font-weight: bolder;
+    font-size: 52px;
+}
+.text-subtitle {
+    font-size: 28px;
+}
+.text {
+    font-size: 18px;
+}
+
+
+.text-blue {
+    color: var(--blue) !important;
+}
+
+.bg-blue {
+    background-color: var(--blue) !important;
+}
+
+.text-white {
+    color: var(--white) !important;
+}
+
+.bg-white {
+    background-color: var(--white) !important;
+}

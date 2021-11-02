@@ -1,0 +1,107 @@
+:root {
+    --blue: #1084c7;
+    --black: #000;
+    --white: #fff;
+}
+
+#navbar-logo {
+    margin-left: 1.5rem !important;
+}
+
+.navbar-links {
+    margin-right: 1rem;
+}
+
+.navbar {
+    margin: 2rem 1.5rem;
+    border-radius: 12px;
+    background-color: var(--white);
+    height: 5rem;
+    z-index: 999;
+}
+
+
+
+#navbar-items {
+    padding-right: 0rem !important;
+}
+
+#navbar-items li {
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 2.5px solid var(--blue);
+    padding: 0 1rem 0;
+}
+
+#navbar-items li:last-child {
+    border-right: none
+}
+
+#botoes {
+    vertical-align: middle;
+}
+
+.btn-home {
+    font-size: 24px;
+    border-radius: 15px;
+    padding-top: 1rem;
+    width: 15rem;
+    height: 4.5rem;
+}
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    filter: brightness(0.3)
+}
+
+.carousel {
+    /* position: relative;
+    top: -9rem; */
+    margin-top: -9rem;
+
+    z-index: 900;
+}
+
+#primeira-caixa {
+    z-index: 998;
+    position: absolute;
+    margin-left: 5vw !important;
+}
+
+#conteudo-principal {
+    margin-top: 5rem !important;
+}
+
+
+#segunda-caixa {
+    background-color: var(--black);
+    height: 20rem;
+    padding-left: 5rem;
+}
+
+#largada {
+    height: 5rem;
+    width: 25rem;
+    
+    background-color: var(--white);
+    border-radius: 15px;
+}
+
+#largada span {
+    position: inherit;
+    top: 1.3rem;
+
+    padding-left: 2.2rem;
+    margin-top: 20px;
+
+    font-weight: 900;
+    font-size: 28px;
+}
