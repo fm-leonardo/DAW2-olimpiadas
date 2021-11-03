@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="assets/images/logo_branca.svg">
     <title>Home</title>
 
     <!-- Bootstrap -->
@@ -17,8 +18,8 @@
         rel="stylesheet">
 
     <!-- css customizado -->
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 
 </head>
 
@@ -26,7 +27,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="mr-auto">
             <a class="navbar-brand" id="navbar-logo" href="#">
-                <img src="/assets/images/logo_colorida.svg" alt="" height="40">
+                <img src="assets/images/logo_colorida.svg" alt="" height="40">
             </a>
 
             <!-- botão da navbar no mobile -->
@@ -72,11 +73,11 @@
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active" style="background-image: url('/assets/images/toquio-1.png')">
+                    <div class="carousel-item active" style="background-image: url('assets/images/toquio-1.png')">
                     </div>
-                    <div class="carousel-item" style="background-image: url('/assets/images/olimpiadas-1.jpg')">
+                    <div class="carousel-item" style="background-image: url('assets/images/olimpiadas-1.jpg')">
                     </div>
-                    <div class="carousel-item" style="background-image: url('/assets/images/brasil-1.jpg')">
+                    <div class="carousel-item" style="background-image: url('assets/images/brasil-1.jpg')">
                     </div>
                 </div>
             </div>
@@ -108,17 +109,44 @@
         </div>
 
         <div id="conteudo-principal">
-
             <div id="segunda-caixa" class="row">
-                <span id="largada" class="text-blue">
+                <span id="largada" class="text-blue text-center">
                     <span>FOI DADA A LARGADA!</span>
                 </span>
-                <div class="row">
+                <div class="row ps-4">
                     <div class="col">
-                        <div class="col-4">
+                        <div class="row">
                             <span class="text-white fw-bold text">
                                 Confira o ranking mundial de países:
                             </span>
+                        </div>
+                        <div id="ranking" class="row">
+                            <div class="col-3 me-2">
+                                <span class="posicao text-white">
+                                    1º
+                                </span>
+                                <img class="bandeira" src="assets/images/flags/br.webp" alt="Bandeira do Brasil">
+                            </div>
+                            <div class="col-3 me-2">
+                                <span class="posicao text-white">
+                                    2º
+                                </span>
+                                <img class="bandeira" src="assets/images/flags/fr.webp" alt="Bandeira do Japão">
+                            </div>
+                            <div class="col-3">
+                                <span class="posicao text-white">
+                                    3º
+                                </span>
+                                <img class="bandeira" src="assets/images/flags/jp.webp" alt="Bandeira da França">
+                            </div>
+                            <div id="medalhas-link" class="col-3 d-flex">
+                                <a href="medalhas.html">
+                                    <span class="text-wrap text-white fw-bold text">
+                                        Vá para o quadro de medalhas
+                                    </span>
+                                    <img src="assets/images/seta.svg" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

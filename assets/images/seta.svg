@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 58.2 121.8" xmlns="http://www.w3.org/2000/svg">
+  <g id="layer1" transform="matrix(1, 0, 0, 1, 6.677086, 6.677084)">
+    <g id="g21" transform="matrix(0.26458333,0,0,0.26458333,-51.593749,-13.150849)">
+      <line style="stroke-width: 10px; stroke-linecap: round; fill: rgb(255, 255, 255); paint-order: fill; stroke: rgb(255, 255, 255);" x1="200" y1="54.703999" x2="359.573" y2="254.17" id="line9"/>
+      <line style="stroke-width: 10px; stroke-linecap: round; fill: rgb(255, 255, 255); paint-order: fill; stroke: rgb(255, 255, 255);" x1="200" y1="454.70401" x2="359.405" y2="255.44701" id="line11"/>
+    </g>
+  </g>
+</svg>
