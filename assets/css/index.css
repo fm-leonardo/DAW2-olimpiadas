@@ -177,3 +177,27 @@
 #momentos row {
     padding-top: 4vh !important;
 }
+
+
+#quarta-caixa {
+    background-color: var(--black);
+
+}
+
+#estrelas {
+    background-color: var(--white);
+    color: var(--blue);
+    border-radius: 15px;
+    font-size: 6vh;
+    height: 10vh;
+    margin-left: -200px !important;
+}
+
+
+#footer {
+    background-color: var(--blue);
+}
+
+#footer img {
+    height: 10vh;
+}
