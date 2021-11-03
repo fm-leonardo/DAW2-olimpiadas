@@ -83,6 +83,7 @@
     padding-left: 5rem;
 
     margin-top: -4vh;
+    margin-bottom: 8vh;
 }
 
 #largada {
@@ -144,4 +145,35 @@
     height: 15vh;
     width: 5vw;
     margin-left: 16vw !important;
+}
+
+#terceira-caixa {
+    background-color: var(--blue);
+    padding-top: 6vh;
+}
+
+#terceira-caixa .text.fw-bold {
+    width: 50vw;
+}
+
+#terceira-caixa img {
+    object-fit: cover;
+    width: 40vw;
+
+    border-radius: 30px;
+}
+
+.box-shadow-left {
+    box-shadow: 15px 15px var(--white);
+}
+.box-shadow-right {
+    box-shadow: -15px 15px var(--white);
+}
+
+#momentos {
+    padding-top: 8vh;
+}
+
+#momentos row {
+    padding-top: 4vh !important;
 }
