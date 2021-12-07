@@ -20,7 +20,14 @@
     z-index: 999;
 }
 
-
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .navbar .mr-auto {
+        display: flex;
+    }
+    .navbar-toggler {
+        justify-self: flex-end;
+    }
+}
 
 #navbar-items {
     padding-right: 0rem !important;
@@ -49,7 +56,6 @@
     height: 4.5rem;
 }
 
-
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -58,7 +64,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     filter: brightness(0.3)
 }
 
@@ -66,7 +71,6 @@
     /* position: relative;
     top: -9rem; */
     margin-top: -9rem;
-
     z-index: 900;
 }
 
@@ -76,12 +80,10 @@
     margin-left: 5vw !important;
 }
 
-
 #segunda-caixa {
     background-color: var(--black);
     /* height: 20rem; */
     padding-left: 5rem;
-
     margin-top: -4vh;
     margin-bottom: 8vh;
 }
@@ -89,21 +91,16 @@
 #largada {
     height: 5rem;
     width: 25rem;
-    
     margin-top: -2.5vh;
-
     background-color: var(--white);
     border-radius: 15px;
-
     z-index: 997;
-    
     margin-bottom: 5vh;
 }
 
 #largada span {
     position: relative;
     top: 18px;
-
     font-weight: 900;
     font-size: 28px;
 }
@@ -112,15 +109,14 @@
     margin-top: -15vh;
 }
 
-#ranking > div {
+#ranking>div {
     width: 18rem;
 }
-
 
 .bandeira {
     object-fit: cover;
     height: 10rem;
-    width:  10rem;
+    width: 10rem;
     border-radius: 10px;
     margin-left: 5.5rem;
 }
@@ -128,7 +124,6 @@
 .posicao {
     font-size: 14vh;
     font-weight: 900;
-
     position: relative;
     bottom: -11.5rem;
 }
@@ -136,7 +131,6 @@
 #medalhas-link {
     position: relative;
     top: 33vh;
-
     width: 5vw;
 }
 
@@ -159,13 +153,13 @@
 #terceira-caixa img {
     object-fit: cover;
     width: 40vw;
-
     border-radius: 30px;
 }
 
 .box-shadow-left {
     box-shadow: 15px 15px var(--white);
 }
+
 .box-shadow-right {
     box-shadow: -15px 15px var(--white);
 }
@@ -178,10 +172,8 @@
     padding-top: 4vh !important;
 }
 
-
 #quarta-caixa {
     background-color: var(--black);
-
 }
 
 #estrelas {
@@ -193,9 +185,10 @@
     margin-left: -200px !important;
 }
 
-
-#footer {
+footer {
     background-color: var(--blue);
+    display: flex;
+    justify-content: space-between;
 }
 
 #footer img {

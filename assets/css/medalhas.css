@@ -1,0 +1,27 @@
+#quadro-medalhas {
+    border-radius: 50px;
+    background-color: #fff;
+    margin: 0 5vw 0;
+}
+
+.bandeira {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.imagem-medalha {
+    height: 50px;
+    width: 50px;
+}
+
+td { 
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+th {
+    text-align: center;
+
+}

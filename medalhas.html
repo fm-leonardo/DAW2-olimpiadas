@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="assets/images/logo_branca.svg">
+    <title>Home</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- css customizado -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/medalhas.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="mr-auto">
+            <a class="navbar-brand" id="navbar-logo" href="#">
+                <img src="assets/images/logo_colorida.svg" alt="" height="40">
+            </a>
+
+            <!-- botão da navbar no mobile -->
+            <button class="navbar-toggler btn-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+
+        <div class="collapse navbar-collapse justify-content-end navbar-links" id="navbarSupportedContent">
+            <ul id="navbar-items" class="navbar-nav ml-auto text-blue">
+                <li class="nav-item">
+                    <a href="#" class="text-blue nav-link">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="text-blue nav-link">Países</a>
+                </li>
+                <li class="nav-item">
+                    <a href="medalhas.html" class="text-blue nav-link">Medalhas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="text-blue nav-link">Esportes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="text-blue nav-link">Agenda</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="quadro-medalhas">
+        <table id="tabela">
+            <th></th>
+            <th>País</th>
+            <th>Ouro
+                <img class="imagem-medalha"
+                    src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/282/1st-place-medal_1f947.png"
+                    alt="Medalha de primeiro lugar">
+            </th>
+            <th>Prata
+                <img class="imagem-medalha"
+                    src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/282/2nd-place-medal_1f948.png"
+                    alt="Medalha de segundo lugar">
+            </th>
+            <th>Bronze
+                <img class="imagem-medalha"
+                    src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/282/3rd-place-medal_1f949.png"
+                    alt="Medalha de terceiro lugar">
+            </th>
+            <th>Total</th>
+        </table>
+    </div>
+
+    <script src="assets/scripts/medalhas.js">
+    </script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

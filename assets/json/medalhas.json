@@ -1,0 +1,72 @@
+[
+    {
+        "bandeira": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg",
+        "pais": "Brasil",
+        "ouro": 970,
+        "prata": 10,
+        "bronze": 10
+    },
+    {
+        "bandeira": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
+        "pais": "EUA",
+        "ouro": 1,
+        "prata": 1,
+        "bronze": 1
+    },
+    {
+        "bandeira": "http://geo5.net/imagens/Bandeira-da-China-grande.png",
+        "pais": "China",
+        "ouro": 2,
+        "prata": 1,
+        "bronze": 1
+    },
+    {
+        "bandeira": "https://www.dci.com.br/wp-content/uploads/2021/07/Sem-titulo-429.jpg",
+        "pais": "ROC",
+        "ouro": -1,
+        "prata": 1,
+        "bronze": 2
+    },
+    {
+        "bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/250px-Flag_of_Hong_Kong.svg.png",
+        "pais": "Hong Kong",
+        "ouro": 7,
+        "prata": 43,
+        "bronze": 6
+    },
+    {
+        "bandeira": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
+        "pais": "Cuba",
+        "ouro": 15,
+        "prata": 5,
+        "bronze": 9
+    },
+    {
+        "bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png",
+        "pais": "Japão",
+        "ouro": 16,
+        "prata": 27,
+        "bronze": 12
+    },
+    {
+        "bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/255px-Flag_of_the_Netherlands.svg.png",
+        "pais": "Holanda",
+        "ouro": 4,
+        "prata": 2,
+        "bronze": 0
+    },
+    {
+        "bandeira": "https://www.todoestudo.com.br/wp-content/uploads/2018/03/Argentina-Flag.png",
+        "pais": "Argentina",
+        "ouro": 0,
+        "prata": 0,
+        "bronze": 0
+    },
+    {
+        "bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png",
+        "pais": "República Tcheca",
+        "ouro": 0,
+        "prata": 6,
+        "bronze": 9
+    }
+]
